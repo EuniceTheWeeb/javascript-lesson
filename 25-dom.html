@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sakura Restaurant</h1>
+    <h2 id=subtitle>Menu</h2>
+    <ul>
+        <li>Raw fish</li>
+        <li class="recommended">Chicken</li>
+        <li>Rice w/ wasabi</li>
+        <li class="recommended">Eel</li>
+    </ul>
+    <h1 id="our-reviews">Our reviews</h1>
+    <blockquote>
+        Best food ever!
+    </blockquote>
+    <button>
+        click here
+    </button>
+</body>
+<script>
+    let reviewHeader = document.querySelector("#our-reviews")
+    reviewHeader.style.backgroundColor = "green"
+
+    let recommended = document.querySelectorAll(".recommended")
+    for (let r of recommended) {
+        r.style.backgroundColor = "yellow" 
+    }
+    // recommded is an array, must use for loop to change styling
+    // button interaction is created in js
+</script>
+</html>
+
+<!-- Open webpg in Terminal ->  Type "python -m http.server"-->
+<!-- Select 1st occuring element w/ document.querySelector -->
+<!-- will return DOM node/object -->
+<!-- doc.querySelect selects by class, only returns 1st -->
+<!-- use  querySelectAll to select all classes -->
+<!-- any html attributes can be changed w/ dom -->
+<!-- getElementByXX more specific than querySelector -->

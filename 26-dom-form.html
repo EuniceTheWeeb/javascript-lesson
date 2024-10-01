@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Customer Satisfaction</h1>
+    <div>
+        <label>Enter your first name</label>
+        <input type="text" id="firstName"/>
+    </div>
+    <div>
+        <label>Email address</label>
+        <input type="text" id="Email"/>
+    </div>
+    <div>
+        <label>
+            Rate your experience
+        </label>
+        <input type="radio" class="experience" name="experience" value="horrible"><label>Horrible</label>
+        <input type="radio" class="experience" name="experience" value="bad"><label>Bad</label>
+        <input type="radio" class="experience" name="experience" value="average"><label>Average</label>
+        <input type="radio" class="experience" name="experience" value="good"><label>Good</label>
+        <input type="radio" class="experience" name="experience" value="excellent"><label>Excellent</label>
+        <!-- radio btns by default have no value, only "on" or "off" -->
+    </div>
+    <div>
+        <label>How did you hear about us?</label>
+        <input type="checkbox" class="hearAbout" name="hearAbout" value="word-of-mouth"/><label>Word of mouth</label>
+        <input type="checkbox" class="hearAbout" name="hearAbout" value="social-media"/><label>Social media</label>
+        <input type="checkbox" class="hearAbout" name="hearAbout" value="advertisement"/><label>Advertisement</label>
+        <input type="checkbox" class="hearAbout" name="hearAbout" value="others"/><label>Others</label>
+    </div>
+    <div>
+        <label>Country</label>
+        <select id="country">
+            <option value="Singapore">Singapore</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Indonesia">Indonesia</option>
+        </select>
+    </div>
+    <button id="Submit">
+        Submit
+    </button>
+    <script src="26-script.js"></script>
+</body>
+</html>
