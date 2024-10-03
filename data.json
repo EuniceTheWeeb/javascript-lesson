@@ -1,0 +1,15 @@
+// use data from external sources
+// js stores data thru objects in a json file
+// all strings must be in ""
+// jsonpathfinder.com - used to find path to key of object, replace x to variable of response.data
+
+{
+    "name": "iPad Pro 11in",
+    "price": 1100,
+    "discount": false,
+    "tags": ["apple", "refurbished", "tablet"],
+    "vendor": {
+        "name": "Techdome",
+        "address": "Sim Lim Sq #04-05"
+    }
+}
