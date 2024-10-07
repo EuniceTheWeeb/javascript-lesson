@@ -9,6 +9,7 @@
 // promise: fx that takes a while (>100ms) to execute & only executes in the future
 // still working in bg
 // can tell js when the promise finishes
+
 fetchData()
 console.log("Hello world")
 
